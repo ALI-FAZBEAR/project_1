@@ -73,11 +73,11 @@ def cancel():
     
 # buttons and enry=====================================================================
 name_text = StringVar()
-name_label = Label(win, text = "Name:",bg='#F8B195', font = ('Tahoma 14'))
+name_label = Label(win, text = "Name:",bg='red', font = ('Tahoma 14'))
 name_label.place(x =10 , y = 5)
 name_entry = Entry(win, textvariable = name_text, bd = 3, relief = GROOVE)
 name_entry.place(x = 90 , y =10)
-
+print('***************')
 
 address_text = StringVar()
 address_label = Label(win, text = "Address:",bg='#F8B195', font = ('Tahoma', 14))
